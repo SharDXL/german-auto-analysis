@@ -9,8 +9,6 @@
 
 A four-module Python project that analyses the German automotive sector through the lens of a buy-side equity analyst. The core thesis: **German OEMs are being squeezed from two sides — EV transition costs compressing margins, and China market share eroding permanently.** The project quantifies both pressures and identifies which OEM is best positioned.
 
-Built as part of a structured project roadmap: DAX40 Trading Comps → Mittelstand M&A → ECB Fixed Income → **German Auto Deep-Dive (this)** → BMW Business Analysis → BMW DCF → Full Equity Research Report.
-
 ---
 
 ## Four Charts, Four Lenses
@@ -26,17 +24,17 @@ All charts are interactive (Plotly HTML) — hover for data, click legend to tog
 
 ---
 
-## Key Findings (June 2026)
+## Key Findings (last refreshed 06 July 2026 — updates automatically, see below)
 
-**Valuation:** BMW is the cheapest on both EV/EBITDA (9.5x) and P/E (6.1x) among German OEMs. Porsche trades at a significant premium (EV/EBITDA 20x) despite margin compression. Tesla's multiples (EV/EBITDA 134x, P/E 371x) reflect pure growth pricing vs. the German value cluster.
+**Valuation:** BMW is the cheapest OEM on both EV/EBITDA and P/E among the German cluster as of the latest refresh. These multiples are TTM as of the refresh date (not FY2025A) since they move with the live share price — check `charts/01_valuation_comps.html` for the current snapshot rather than quoting a fixed number.
 
-**Margins:** VW's operating margin has compressed to ~3%, reflecting restructuring costs and China headwinds. BMW and Mercedes have held 6%+ despite headwinds. Porsche remains the highest-margin OEM but dropped sharply from its 20%+ peak.
+**Margins:** Porsche remains the highest-margin German OEM in the latest run, though well off its earlier peak — see `charts/02_margin_trends.html` for the current cross-OEM comparison.
 
-**EV Transition:** BMW leads German OEMs at 20.6% BEV mix (2025), ahead of the EU mandate trajectory. VW lags at 10.1% despite being the earliest mover, reflecting consumer adoption headwinds post-subsidy removal.
+**EV Transition:** BMW leads the German OEM cluster on BEV mix of 2025 deliveries (using annual-report-sourced figures, not an unlabeled estimate). VW lags despite being an early mover.
 
-**China:** VW has the highest China dependency (24.2% of revenue) and the most acute exposure. All four OEMs have seen China % decline since 2022 peak. What was once Germany's most profitable export market is now the sector's primary risk.
+**China:** VW carries the highest China revenue exposure (24.2%) of the four OEMs tracked, followed by Porsche and Mercedes; BMW has the lowest at 18.6%.
 
-**Bottom line:** BMW is the highest-quality way to express a German auto recovery — cheapest multiples, best EV progress among German OEMs, strong net cash position, and the Neue Klasse platform as a credible 2026-2027 catalyst.
+**Bottom line:** BMW is the highest-quality way to express a German auto recovery within this OEM cluster — cheapest multiples, strongest EV progress, and the lowest China concentration of the four.
 
 ---
 
@@ -80,16 +78,6 @@ Opens interactive HTML charts in `/charts/`. Live data pulled from Yahoo Finance
 **BEV Mix** — Battery electric vehicles as % of total deliveries. The EU 2035 mandate requires 100% ZEV sales. Any OEM below the trajectory line is at regulatory fine risk.
 
 **China Revenue %** — China's share of group revenue. Was the sector's primary growth and margin engine 2015–2022. Now the primary risk. VW's 24% exposure is the highest; all four OEMs have been declining since 2022.
-
----
-
-## Context & Next Steps
-
-This project is the industry layer of a full equity research workflow:
-- **P4 (next):** BMW business analysis — revenue model, competitive moat, segment breakdown
-- **P5:** BMW 3-statement financial model
-- **P7:** BMW DCF valuation
-- **P9:** Full equity research report with price target
 
 ---
 

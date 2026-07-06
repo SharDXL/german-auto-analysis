@@ -1,10 +1,10 @@
-OEM,Year,Total_Revenue_Bn_EUR,China_Revenue_Bn_EUR,China_Pct,China_Units_Sold,Total_Units_Sold
-BMW,2020,98.9,22.3,22.5,777379,2325179
-BMW,2021,111.2,25.0,22.5,846237,2521525
-BMW,2022,142.6,30.2,21.2,791988,2399632
-BMW,2023,155.2,32.8,21.1,824932,2555341
-BMW,2024,142.4,29.1,20.4,714286,2450000
-BMW,2025,138.0,26.5,19.2,686000,2480000
+OEM,Year,Total_Revenue_Bn_EUR,China_Revenue_Bn_EUR,China_Pct,China_Units_Sold,Total_Units_Sold,Source
+BMW,2020,98.9,22.3,22.5,777379,2325179,Estimated - verify against BMW AR2020 Note 46
+BMW,2021,111.2,25.0,22.5,846237,2521525,Estimated - verify against BMW AR2021 Note 46
+BMW,2022,142.6,41.9,29.4,791988,2399632,BMW AR2023 Note 46 (geographical segment)
+BMW,2023,155.5,40.8,26.3,826300,2555341,BMW AR2023 Note 46 (geographical segment); units from AR2023 p.67
+BMW,2024,142.4,31.8,22.3,715200,2450900,BMW AR2025 Note 46 (geographical segment); total deliveries from AR2025
+BMW,2025,133.5,24.8,18.6,626000,2463700,BMW AR2025 Note 46 (geographical segment); China deliveries from AR2025 p.78
 Mercedes,2020,154.3,31.1,20.2,774403,2164187
 Mercedes,2021,172.7,37.8,21.9,757765,2093689
 Mercedes,2022,150.0,36.5,24.3,734200,2043900

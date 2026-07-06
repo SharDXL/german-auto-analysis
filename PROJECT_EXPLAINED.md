@@ -10,7 +10,7 @@ Before anything else, understand the situation this project is analysing. This i
 
 ### Germany's car industry is its economy
 
-Germany's automotive sector generates about €243 billion in annual revenue, accounts for over 5% of GDP, and employs roughly 800,000 people directly. Indirectly (through the supplier base, dealerships, logistics), the number is several million. The "Big Three" — BMW, Mercedes-Benz, and Volkswagen Group — are among the most recognised brands in the world. Porsche AG (majority owned by VW Group, separately listed) sits at the ultra-premium end.
+Germany's automotive sector generates approximately €527.6 billion in annual revenue (Source: Germany Trade & Invest / GTAI, 2025), accounts for over 5% of GDP, and employs roughly 731,900 people directly in the industry. Indirectly (through the supplier base, dealerships, logistics), the number is several million. The "Big Three" — BMW, Mercedes-Benz, and Volkswagen Group — are among the most recognised brands in the world. Porsche AG (majority owned by VW Group, separately listed) sits at the ultra-premium end.
 
 For decades, the formula was simple: German engineering quality commanded price premiums globally, with China as the single biggest profit engine. In 2022, German OEMs collectively earned roughly 35% of their global profits from China. That's an extraordinary concentration.
 
